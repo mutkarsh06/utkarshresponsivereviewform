@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.start {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: peachpuff;
+    width: auto;
+    border: 1px solid #070707;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px 0px 7px 0px;
+    background-color: black;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+body {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcXASFT0s2groSxuGb0keHhSjw2Zvx5pbaaA&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form#review {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background: rgb(219, 205, 193);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+}
+
+input.submit {
+    left: 900px;
+    width: 100px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border-radius: 3px;
+    background-color: rgba(35, 33, 32, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.fname {
+    margin-left: 0px;
+}
+
+.lname {
+    margin-left: 0px;
+}
+
+.streetn {
+    margin-left: 0px;
+}
+.street{
+    margin-left: 0px;
+}
+
+.city {
+    margin-left: 0px;
+}
+.cityn{
+    margin-left: 0px;
+}
+
+.staten {
+    margin-left: 45px;
+}
+.state{
+    margin-left: 0px;
+}
+
+.pincoden{
+    margin-left: 90px;
+}
+.quality {
+    margin-left: 70px;
+}
+
+.money {
+    margin-left: 70px;
+}
+
+.delivery {
+    margin-left: 70px;
+}
+
+.Excellent1 {
+    margin-left: 100px;
+}
+
+.Good1 {
+    margin-left: 25px;
+}
+
+.Bad1 {
+    margin-left: 25px;
+}
+
+.Excellent2 {
+    margin-left: 100px;
+}
+
+.Excellent3 {
+    margin-left: 100px;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+}
+
+.reset {
+    left: 900px;
+    width: 100px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border-radius: 3px;
+    background-color: rgba(35, 33, 32, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.reset1 {
+    margin-left: 50px;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+@media (min-width:0px) and (max-width:616px)
+{
+    
+.flex1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flex3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.start {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: peachpuff;
+    width: auto;
+    border: 1px solid #070707;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px 0px 7px 0px;
+    background-color: black;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.staten {
+    margin-left: 0px;
+}
+.state{
+    margin-left: 25px;
+}
+
+.pincoden{
+    margin-left: 0px;
+}
+.street{
+    margin-left: 20px;
+}
+
+.city {
+    margin-left: 39px;
+}
+.quality {
+    margin-left: 0px;
+}
+
+.money {
+    margin-left: 0px;
+}
+
+.delivery {
+    margin-left: 0px;
+}
+
+.Excellent1 {
+    margin-left: 0px;
+}
+
+.Good1 {
+    margin-left: 0px;
+}
+
+.Bad1 {
+    margin-left: 0px;
+}
+
+.Excellent2 {
+    margin-left: 0px;
+}
+
+.Excellent3 {
+    margin-left: 0px;
+}
+}
